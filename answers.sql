@@ -20,7 +20,6 @@ SELECT DISTINCT
 FROM 
     OrderDetails;
 
--- Then create the OrderItems table with the full dependency
 CREATE TABLE OrderItems_2NF AS
 SELECT 
     OrderID,
